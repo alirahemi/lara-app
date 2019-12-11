@@ -1,12 +1,12 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="container">
-        <div class="row mt-4">
-            <div class="col-8 mx-auto">
-                <h4>{{$title}}</h4>
-                <p>This is Laravel Application from the Youtube Series</p>
-            </div>
-        </div>
+    <div class="jumbotron text-center">
+        <h1 class="display-3">{{$title}}</h1>
+        <p class="lead">This is Laravel Application from the Youtube Series</p>
+        <p>
+            <a class="btn btn-primary btn-lg" href="/login" role="button">Login</a>
+            <a class="btn btn-success btn-lg" href="/register" role="button">Register</a>
+        </p>
     </div>
 @endsection
