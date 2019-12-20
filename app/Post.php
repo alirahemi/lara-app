@@ -14,4 +14,8 @@ class Post extends Model
 
     // Timestamps
     public $timestamps = true;
+
+    protected $title;
+
+    protected $body;
 }
